@@ -1,0 +1,36 @@
+#terms {
+  padding: 50px 0;
+}
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00216d;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#terms p {
+ font-size: 1em;
+ line-height: 1.5;
+ padding-top: 10px;
+}
+.title-download {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+}
+.download-links {
+  text-align: left;
+  padding-top: 10px;
+}
+.download-links a{
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.fa-arrow-down{
+  color: #2296ee;
+  padding: 0 5px;
+}
