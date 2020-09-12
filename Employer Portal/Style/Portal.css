@@ -1,0 +1,109 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+
+.container{
+    background: lightgray;
+}
+
+#root {
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 10% 63% 20%;
+  grid-gap: 1rem;
+}
+
+.left-nav {
+  width: 100%;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.left-upper-nav {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
+.left-bottom-nav {
+  width: 100%;
+  position: relative;
+  height: 10%;
+}
+
+.box{
+    position: relative;
+    top: 10%;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+
+.header-nav {
+  position: relative;
+  margin-top: 1.2rem;
+}
+
+.header-nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 1rem;
+}
+
+.link{
+    text-decoration:none;
+    color:black;
+}
+
+.skills{
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.skills li {
+    margin-right: 1rem;
+}
+
+.right-nav{
+    width: 100%;
+    position: relative;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    position: relative;
+    height: 30%;
+}
+
+.profile-img{
+    border-radius:5%;
+    margin-bottom: 1rem;
+}
+
+.right-nav-info{
+    width: 100%;
+    position: relative;
+    height: 70%;
+}
+
+.info-box ul li{
+list-style-type: none;
+}
+
+
+.database{
+    width: 100%;
+}
+
+
+
+
