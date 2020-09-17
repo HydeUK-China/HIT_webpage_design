@@ -1,2 +1,0 @@
-# HIT Webpage Design
-
