@@ -101,7 +101,11 @@ list-style-type: none;
 
 
 .database{
+  margin-left: 2rem;
+  padding-left: 2rem;
     width: 100%;
+    display: grid;
+    grid-template-columns:  12% 12% 12% 12% 12% 12% 12% 12%;
 }
 
 
