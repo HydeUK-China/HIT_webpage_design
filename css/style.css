@@ -513,7 +513,12 @@ padding: 2%;
 	}
 	[class*="col-"] {
 		width: 100%
-	}
+  }
+  .right-sidebar{
+    display: none;
+    width: 0;
+  }
+  
 }
 
 /* Small devices >= 600px */
