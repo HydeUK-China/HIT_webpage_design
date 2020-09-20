@@ -6,15 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Expert Dashboard">
   <title>Expert Dashboard</title>
-  <link rel="stylesheet " href="../HydeDashboards/css/bootstrap.css">
-  <link rel="stylesheet " href="../HydeDashboards/css/style.css">
+  <link rel="stylesheet " href="css/bootstrap.css">
+  <link rel="stylesheet " href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="../HydeDashboards/js/bootstrap.min.js"></script>
-  
+    <script src="js/bootstrap.min.js"></script>
 </head>
+
+<style>
+  .text-aliign{
+    text-align: center;
+  }
+</style>
 
 <body>
     <!--Navigation Bar-->
@@ -33,11 +38,8 @@
         </li>
       </ul>
       </div>
-      </nav>
+    </nav>
  
- 
-  
-  
   <main>
       <!--LeftSide Bar-->
     <div class="container-fluid">
@@ -64,38 +66,271 @@
         </div>
       </div>
       <!--Profile Content Code-->
+    </div>
+    
+    <div id="wrapper" class="toggled">
+            <!-- Sidebar -->
+        <div id="sidebar-wrapper-2">
+            <div class="row">
+              <div class="col-md-6">
+                <h1>Hello</h1>
+                <h3>Jonathan!</h3>
+                <p>Bio</p>
+                <h6>Web Developer.Hardworking and Smart</h6>
+              </div>
+              <div class="col-md-6" style="text-align: center;">
+                <img src="Images/img_avatar.png" class="img-fluid" style="width: 50%; height: auto; margin-bottom: 5%;">
+                <button class="btn btn-primary">Edit Profile</button>
+              </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="text-aliign">Contact Details</h5>
+            </div>
+            <div class="col-md-5" style=" width: 100%; 
+            border-bottom: 1px solid #000; 
+            line-height: 0.1em;
+            margin: 10px -28px 20px;">
+              <h3></h3>
+            </div>
+          </div>
+          
+        </div> <!-- /#sidebar-wrapper -->
+    </div> <!-- /#wrapper -->
+  
+  </main>
+
+  <section class="section-pad-tp-btm">
+    <div class="container">
       <div class="row">
-        <div class="col">
-          <div class="form-group">
-            <label for="my-textarea">Text</label>
-            <textarea id="my-textarea" class="form-control" name="form" rows="3"></textarea>
+        <div class="col-md-9">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link a-text active" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link a-text" href="#job">Jobs</a>
+            </li>
+          </ul>
+
+        <div class="tab-content">
+
+        <!-- Profile Tab -->
+
+        <div id="profile" class="container h5-text tab-pane active"><br>
+          <h5>
+            <i class="fa fa-user-o" aria-hidden="true"></i> 
+              About Me 
+            <a href=""><i class="fa fa-edit"></i></a>
+          </h5>
+          <h5>
+            <i class="fa fa-info-circle" aria-hidden="true"></i> 
+              Expertises
+            <a href=""><i class="fa fa-edit"></i></a>
+          </h5>
+          <h5>
+            <i class="fa fa-university" aria-hidden="true"></i>
+              Education
+            <a href=""><i class="fa fa-edit"></i></a>
+          </h5>
+          <h5>
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+              Experience 
+            <a href=""><i class="fa fa-edit"></i></a>
+          </h5>
+        </div>
+
+        <!-- Job tab -->
+
+        <div id="job" class="container tab-pane"><br>
+          <div class="row">
+            <div class="col-md-4">
+            <div class="card" style="border-radius: 1rem !important; margin-right: -5%;">
+              <div class="card-body">
+                <h5 class="card-title">Account Manager</h5>
+                <p class="card-text">Posted By</p>
+                <h6 class="card-subtitle mb-2 text-muted">University of Staffordshire</h6>
+                <div class="modal-body row" style="padding: 0;">
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Last Date</p>
+                    <p class="p-text-2 u-design-1">24 Jul 2020</p>
+                    <a href="#" class="p-text-3" style="color: #2727a2;">See More</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Posted</p>
+                    <p class="p-text-2 u-design-2">6 Days ago</p>
+                    <p class="p-text-3" style="color: #2727a2; margin-left: -15px;">$35,000 - $40,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card" style="border-radius: 1rem !important;margin-right: -5%;">
+              <div class="card-body">
+                <h5 class="card-title">Account Manager</h5>
+                <p class="card-text">Posted By</p>
+                <h6 class="card-subtitle mb-2 text-muted">University of Staffordshire</h6>
+                <div class="modal-body row" style="padding: 0;">
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Last Date</p>
+                    <p class="p-text-2 u-design-1">24 Jul 2020</p>
+                    <a href="#" class="p-text-3" style="color: #2727a2;">See More</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Posted</p>
+                    <p class="p-text-2 u-design-2">6 Days ago</p>
+                    <p class="p-text-3" style="color: #2727a2; margin-left: -15px;">$35,000 - $40,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="border-radius: 1rem !important; margin-right: -5%;">
+              <div class="card-body">
+                <h5 class="card-title">Account Manager</h5>
+                <p class="card-text">Posted By</p>
+                <h6 class="card-subtitle mb-2 text-muted">University of Staffordshire</h6>
+                <div class="modal-body row" style="padding: 0;">
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Last Date</p>
+                    <p class="p-text-2 u-design-1">24 Jul 2020</p>
+                    <a href="#" class="p-text-3" style="color: #2727a2; margin-left: -15px;">See More</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Posted</p>
+                    <p class="p-text-2 u-design-2">6 Days ago</p>
+                    <p class="p-text-3" style="color: #2727a2; margin-left: -15px;">$35,000 - $40,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div> 
+
+          <div class="row" style="margin-top: 2%">
+            <div class="col-md-4">
+            <div class="card" style="border-radius: 1rem !important; margin-right: -5%;">
+              <div class="card-body">
+                <h5 class="card-title">Account Manager</h5>
+                <p class="card-text">Posted By</p>
+                <h6 class="card-subtitle mb-2 text-muted">University of Staffordshire</h6>
+                <div class="modal-body row" style="padding: 0;">
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Last Date</p>
+                    <p class="p-text-2 u-design-1">24 Jul 2020</p>
+                    <a href="#" class="p-text-3" style="color: #2727a2;">See More</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Posted</p>
+                    <p class="p-text-2 u-design-2">6 Days ago</p>
+                    <p class="p-text-3" style="color: #2727a2; margin-left: -15px;">$35,000 - $40,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="card" style="border-radius: 1rem !important;margin-right: -5%;">
+              <div class="card-body">
+                <h5 class="card-title">Account Manager</h5>
+                <p class="card-text">Posted By</p>
+                <h6 class="card-subtitle mb-2 text-muted">University of Staffordshire</h6>
+                <div class="modal-body row" style="padding: 0;">
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Last Date</p>
+                    <p class="p-text-2 u-design-1">24 Jul 2020</p>
+                    <a href="#" class="p-text-3" style="color: #2727a2; margin-left: -15px;">See More</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Posted</p>
+                    <p class="p-text-2 u-design-2">6 Days ago</p>
+                    <p class="p-text-3" style="color: #2727a2; margin-left: -15px;">$35,000 - $40,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="card" style="border-radius: 1rem !important; margin-right: -5%;">
+              <div class="card-body">
+                <h5 class="card-title">Account Manager</h5>
+                <p class="card-text">Posted By</p>
+                <h6 class="card-subtitle mb-2 text-muted">University of Staffordshire</h6>
+                <div class="modal-body row" style="padding: 0;">
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Last Date</p>
+                    <p class="p-text-2 u-design-1">24 Jul 2020</p>
+                    <a href="#" class="p-text-3" style="color: #2727a2; margin-left: -15px;">See More</a>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="p-text-1" style="margin-bottom: 0;">Posted</p>
+                    <p class="p-text-2 u-design-2">6 Days ago</p>
+                    <p class="p-text-3" style="color: #2727a2; margin-left: -15px;">$35,000 - $40,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
-    </div>
-
-  </main>
-  <!--Right sidebar-->
-  <!-- <div class="rightside">
-    <div id="rightside" class="navbar-inner">
-      <div class="row">
-        <div class=".col-md-8">
-          <h2>Welcome Jonathan</h2>
-
         </div>
-        <div class=".col-md-4">
-          <img class="img-fluid" src="../HydeDashboards/Images/img_avatar.png" alt="Profile Pciture">
-          <button class="btn">Edit Profile</button>
+        <!-- <div class="col-md-3">
+          <div class="box-col">
+            <div class="row">
+              <div class="col-md-6">
+                <h1>Hello</h1>
+                <h3>Jonathan!</h3>
+                <p>Bio</p>
+                <h6>Web Developer. Hardworking and Smart</h6>
+              </div>
+              <div class="col-md-6" style="text-align: center;">
+                <img src="Images/img_avatar.png" class="img-fluid" style="width: 50%; height: auto; margin-bottom: 5%;">
+                <button class="btn btn-primary">Edit Profile</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <h6>Contact Details</h6>
+              </div>
+              <div class="col-md-6" style="width: 100%; 
+                   text-align: center; 
+                   border-bottom: 1px solid #000; 
+                   line-height: 0.1em;                                                       
+                   background-clip:                                              
+                   margin: 10px 0 20px;
+                   position: relative;
+                   left: -3%; ">               
+              </div>
+              <div class="col-md-12">
+                <h6>  +44123456789 </h6>
+                <div class="">
+                <h6>abcd@gmail.com</h6>
+              </div>
+              
+            </div>
+          </div>
         </div>
-      </div>
+      </div> -->
+     </div>
     </div>
-  </div> -->
-
-
+  </section>
 
 
 
 </body>
 
 
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script>
 </html>

@@ -9,6 +9,66 @@
     background-color: #f4f7fd;
   }
   
+/*-----------------------------------New added styles Start----------------------------------*/
+.section-pad-tp-btm{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.sub-section{
+
+}
+.h5-text h5{
+    font-size: 16px;  
+    font-weight: 600;
+}
+.h6-text h6{
+    font-size: 13px;
+    font-weight: bold;
+}
+.p-text-1{
+    font-size: 13px;
+    font-weight: bold;
+}
+.p-text-2{
+    font-size: 14px;
+    font-weight: 300;
+}
+.p-text-3{
+    font-size: 13px;
+    font-weight: bold;
+}
+.a-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+.u-design-1{
+    border-bottom: 0.5px solid #d2cbcb;
+    width: 128%;
+    height: 40%;
+}
+.u-design-2{
+    border-bottom: 0.5px solid #d2cbcb;
+    height: 40%;
+}
+
+#sidebar-wrapper-2{
+    z-index: 1000;
+    position: fixed;
+    right: 0px;
+    width: 25%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff !Important;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+/*-----------------------------------New added styles End----------------------------------*/
+
+
+
+
   .sidebar {
     height: 100%;
     width: 60px;
