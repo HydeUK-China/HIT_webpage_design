@@ -46,7 +46,7 @@
 					<i class="fas fa-sun light-icon"></i>
 				</a>
 			</li> -->
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link">
           <i class="fas fa-bell dropdown-toggle" data-toggle="notification-menu"></i>
           <span class="navbar-badge">15</span>
@@ -233,10 +233,10 @@
             </span>
           </div>
         </ul>
-      </li>
-      <li class="nav-item avt-wrapper">
-        <div class="avt">
-          <img src="../HIT_webpage_design/Images/user.png" alt="User image">
+      </li> -->
+      <li class="nav-item avt-wrapper ">
+        <div class="avt right-sidebar-toggle">
+  <img src="../HIT_webpage_design/Images/user.png" alt="User image" onclick="collapserightsidebar()">
         </div>
         
       </li>
@@ -348,8 +348,16 @@
 
   <!-- import script -->
   <script src="https://kit.fontawesome.com/9710c710e6.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <script src="./js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(".right-sidebar-toggle").click(function(){
+      $(".right-sidebar").fadeToggle(0.3);
+      
+    });
+  });
+  </script>
   <!-- end import script -->
 </body>
 

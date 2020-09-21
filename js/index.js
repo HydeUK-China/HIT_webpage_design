@@ -54,9 +54,9 @@ function collapseSidebar() {
 	body.classList.toggle('sidebar-expand')
 }
 
-/* function collapserightsidebar(){
+function collapserightsidebar(){
   body.classList.toggle('right-sidebar-expand')
-} */
+}
 
 window.onclick = function(event) {
 	openCloseDropdown(event)
@@ -85,4 +85,12 @@ function openCloseDropdown(event) {
 			content.classList.add('dropdown-expand')
 		}
 	}
+
+/* $(document).ready(function(){
+  $("right-sidebar-toggle").click(function(){
+    $(".right-sidebar").fadeOut();
+    
+  });
+}); */
+
 }
