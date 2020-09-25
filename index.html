@@ -35,13 +35,13 @@
     <ul class="navbar-nav nav-right">
       <li class="nav-item avt-wrapper ">
         <div class="avt right-sidebar-toggle">
-  <img src="../HIT_webpage_design/Images/user.png" alt="User image" onclick="collapserightsidebar()">
+          <img src="../HIT_webpage_design/Images/user.png" alt="User image" onclick="collapserightsidebar()">
         </div>
-        
+
       </li>
       <li class="nav-link">
         <div class="Signout bg warning">
-          <i class="fas fa-sign-out-alt"></i> 
+          <i class="fas fa-sign-out-alt"></i>
         </div>
       </li>
     </ul>
@@ -139,31 +139,69 @@
 
   <!-- main content -->
   <div class="wrapper">
-    <div id="profile" class="container h5-text tab-pane active"><br>
-      <h5>
+    <div id="profile" class="container resume"><br>
+      <div class="title">
         <i class="fa fa-user-o" aria-hidden="true"></i> 
-          About Me 
-        <a href=""><i class="fa fa-edit"></i></a>
-      </h5>
-      <h5>
-        <i class="fa fa-info-circle" aria-hidden="true"></i> 
-          Expertises
-        <a href=""><i class="fa fa-edit"></i></a>
-      </h5>
-      <h5>
-        <i class="fa fa-university" aria-hidden="true"></i>
-          Education
-        <a href=""><i class="fa fa-edit"></i></a>
-      </h5>
-      <h5>
-        <i class="fa fa-briefcase" aria-hidden="true"></i>
-          Experience 
-        <a href=""><i class="fa fa-edit"></i></a>
-      </h5>
+        <b>About us</b>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis illo fugit officiis distinctio culpa
+        officia totam atque exercitationem inventore repudiandae?</p>
     </div>
-   
-    
+    <div class="resume_item resume_work">
+      <div class="title">
+        <i class="fa fa-briefcase" aria-hidden="true"></i>
+        <b>Work Experience</b>
+      </div>
+      <ul>
+        <li>
+          <div class="date">2013 - 2015</div>
+          <div class="info">
+            <p class="semi-bold">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+          </div>
+        </li>
+        <li>
+          <div class="date">2015 - 2017</div>
+          <div class="info">
+            <p class="semi-bold">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+          </div>
+        </li>
+        <li>
+          <div class="date">2017 - Present</div>
+          <div class="info">
+            <p class="semi-bold">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+        <i class="fa fa-university" aria-hidden="true"></i>
+        <b>Education</b>
+      </div>
+      <ul>
+        <li>
+          <div class="date">2010 - 2013</div>
+          <div class="info">
+            <p class="semi-bold">Web Designing (University)</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+          </div>
+        </li>
+        <li>
+          <div class="date">2000 - 2010</div>
+          <div class="info">
+            <p class="semi-bold">UH International School</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
+
+
+
   <!-- end main content -->
 
   <!-- import script -->
@@ -171,12 +209,12 @@
   <script src="./js/index.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-  $(document).ready(function(){
-    $(".right-sidebar-toggle").click(function(){
-      $(".right-sidebar").fadeToggle(0.3);
-      
+    $(document).ready(function () {
+      $(".right-sidebar-toggle").click(function () {
+        $(".right-sidebar").fadeToggle(0.3);
+
+      });
     });
-  });
   </script>
   <!-- end import script -->
 </body>
